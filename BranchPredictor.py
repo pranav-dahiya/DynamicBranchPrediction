@@ -33,6 +33,7 @@ def simulatePredictors(filename):
         output += str(predictor.getSize()) + ", " + str(predictor.getN()) + ": " + str(predictor.getMissRate()) + "\n"
         #output += str(predictor.getSize()) + ", " + str(predictor.getM()) + ": " + str(predictor.getMissRate()) + "\n"
         #output += str(predictor.getSize()) + ": " + str(predictor.getMissRate()) + "\n"
+        #my first pull request
     return output
 
 filenames = ["art.trace", "gcc.trace", "go.trace", "hmmer.trace", "libquantum.trace", "mcf.trace", "sjeng.trace", "sphinx3.trace"]
